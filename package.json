@@ -27,8 +27,8 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "github:QwikDev/qwik-build#55dc8da599c585a880561fe8db9dd488c043eb1c",
-    "@builder.io/qwik-city": "github:QwikDev/qwik-city-build#9306818ac6318b73b2d7b597a9e9512c2f024bc8",
+    "@builder.io/qwik": "github:QwikDev/qwik-build#ad7cc99c09c59882b4569c8d7c1d02543a7051f0",
+    "@builder.io/qwik-city": "github:QwikDev/qwik-city-build#8effe19b19d9c5ff7580c8d2f27dd6b8fa5f903a",
     "@types/eslint": "^8.56.10",
     "@types/node": "^20.12.7",
     "@typescript-eslint/eslint-plugin": "^7.7.1",

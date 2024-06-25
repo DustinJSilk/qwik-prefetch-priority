@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@builder.io/qwik':
-        specifier: github:QwikDev/qwik-build#55dc8da599c585a880561fe8db9dd488c043eb1c
-        version: https://codeload.github.com/QwikDev/qwik-build/tar.gz/55dc8da599c585a880561fe8db9dd488c043eb1c(@types/node@20.12.12)(undici@6.18.1)
+        specifier: github:QwikDev/qwik-build#ad7cc99c09c59882b4569c8d7c1d02543a7051f0
+        version: https://codeload.github.com/QwikDev/qwik-build/tar.gz/ad7cc99c09c59882b4569c8d7c1d02543a7051f0(@types/node@20.12.12)(undici@6.18.1)
       '@builder.io/qwik-city':
-        specifier: github:QwikDev/qwik-city-build#9306818ac6318b73b2d7b597a9e9512c2f024bc8
-        version: https://codeload.github.com/QwikDev/qwik-city-build/tar.gz/9306818ac6318b73b2d7b597a9e9512c2f024bc8(@types/node@20.12.12)(rollup@4.18.0)
+        specifier: github:QwikDev/qwik-city-build#8effe19b19d9c5ff7580c8d2f27dd6b8fa5f903a
+        version: https://codeload.github.com/QwikDev/qwik-city-build/tar.gz/8effe19b19d9c5ff7580c8d2f27dd6b8fa5f903a(@types/node@20.12.12)(rollup@4.18.0)
       '@types/eslint':
         specifier: ^8.56.10
         version: 8.56.10
@@ -50,14 +50,14 @@ importers:
 
 packages:
 
-  '@builder.io/qwik-city@https://codeload.github.com/QwikDev/qwik-city-build/tar.gz/9306818ac6318b73b2d7b597a9e9512c2f024bc8':
-    resolution: {tarball: https://codeload.github.com/QwikDev/qwik-city-build/tar.gz/9306818ac6318b73b2d7b597a9e9512c2f024bc8}
-    version: 1.5.5-dev20240523065036
+  '@builder.io/qwik-city@https://codeload.github.com/QwikDev/qwik-city-build/tar.gz/8effe19b19d9c5ff7580c8d2f27dd6b8fa5f903a':
+    resolution: {tarball: https://codeload.github.com/QwikDev/qwik-city-build/tar.gz/8effe19b19d9c5ff7580c8d2f27dd6b8fa5f903a}
+    version: 1.5.7-dev20240622232712
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
 
-  '@builder.io/qwik@https://codeload.github.com/QwikDev/qwik-build/tar.gz/55dc8da599c585a880561fe8db9dd488c043eb1c':
-    resolution: {tarball: https://codeload.github.com/QwikDev/qwik-build/tar.gz/55dc8da599c585a880561fe8db9dd488c043eb1c}
-    version: 1.5.5-dev20240523064535
+  '@builder.io/qwik@https://codeload.github.com/QwikDev/qwik-build/tar.gz/ad7cc99c09c59882b4569c8d7c1d02543a7051f0':
+    resolution: {tarball: https://codeload.github.com/QwikDev/qwik-build/tar.gz/ad7cc99c09c59882b4569c8d7c1d02543a7051f0}
+    version: 1.5.7-dev20240622232135
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -1713,7 +1713,7 @@ packages:
 
 snapshots:
 
-  '@builder.io/qwik-city@https://codeload.github.com/QwikDev/qwik-city-build/tar.gz/9306818ac6318b73b2d7b597a9e9512c2f024bc8(@types/node@20.12.12)(rollup@4.18.0)':
+  '@builder.io/qwik-city@https://codeload.github.com/QwikDev/qwik-city-build/tar.gz/8effe19b19d9c5ff7580c8d2f27dd6b8fa5f903a(@types/node@20.12.12)(rollup@4.18.0)':
     dependencies:
       '@mdx-js/mdx': 3.0.1
       '@types/mdx': 2.0.13
@@ -1735,7 +1735,7 @@ snapshots:
       - supports-color
       - terser
 
-  '@builder.io/qwik@https://codeload.github.com/QwikDev/qwik-build/tar.gz/55dc8da599c585a880561fe8db9dd488c043eb1c(@types/node@20.12.12)(undici@6.18.1)':
+  '@builder.io/qwik@https://codeload.github.com/QwikDev/qwik-build/tar.gz/ad7cc99c09c59882b4569c8d7c1d02543a7051f0(@types/node@20.12.12)(undici@6.18.1)':
     dependencies:
       csstype: 3.1.3
       undici: 6.18.1

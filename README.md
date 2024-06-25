@@ -8,7 +8,7 @@ Run these commands:
 
 Preview the app:
 
-`$ pnpm start`
+`$ pnpm preview`
 
 - Clear the application site data in chrome
 - Refresh the page (witness no prefetching)
